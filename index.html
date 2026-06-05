@@ -626,7 +626,8 @@ const projects=[
   {icon:"fa-arrow-trend-up",name:"AI Forecasting Module",tech:["Python","LSTM","Pandas","Time Series Models","Scikit-learn"],desc:"Time-series forecasting using LSTM and classical models. Built to predict demand, revenue, and trends from historical business data."},
   {icon:"fa-image",name:"Image Generation Chatbot",tech:["Python","LLMs","Generative Image APIs","FastAPI"],desc:"A chatbot that generates images from text prompts. You describe what you want in plain language and it returns an image, combining a generative model with a conversational interface."},
   {icon:"fa-microphone",name:"Voice Agent (MVP)",tech:["Python","Twilio","Deepgram","OpenAI","FastAPI"],desc:"Voice agent MVP where Twilio handles the call, Deepgram does real-time speech-to-text, and OpenAI drives the conversation. Built as a proof of concept for AI-powered phone interactions."},
-  {icon:"fa-eye",name:"Object Detection System",tech:["Python","YOLOv11","OpenCV","PyTorch"],desc:"Real-time object detection on video streams using YOLOv11. Draws bounding boxes and confidence scores around detected objects as they appear."}
+  {icon:"fa-eye",name:"Object Detection System",tech:["Python","YOLOv11","OpenCV","PyTorch"],desc:"Real-time object detection on video streams using YOLOv11. Draws bounding boxes and confidence scores around detected objects as they appear."},
+  {icon:"fa-utensils",name:"Menu Scraping & Extraction System",tech:["Python","BeautifulSoup","Selenium","Tesseract OCR","LLMs","FastAPI"],desc:"Scrapes restaurant menus from websites using BeautifulSoup and Selenium, and extracts menu data from PDFs and images using OCR. Uses an LLM to classify each item as a category, item, or product to build clean structured menu data."}
 ];
 const grid=document.getElementById('projGrid');
 grid.innerHTML=projects.map((p,i)=>`
